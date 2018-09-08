@@ -15,6 +15,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@drmueller/ng-data-access": [
+        "dist/drmueller/ng-data-access"
+      ],
+      "@drmueller/ng-data-access/*": [
+        "dist/drmueller/ng-data-access/*"
+      ]
+    }
   }
 }
