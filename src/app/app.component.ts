@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { PostRepositoryService } from './data-access';
+import { PostRepositoryService } from './data-access/post-repository.service';
 import { Post } from './models';
 
 @Component({

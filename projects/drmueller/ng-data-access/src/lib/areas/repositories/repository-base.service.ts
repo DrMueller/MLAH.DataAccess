@@ -1,7 +1,7 @@
-import { HttpBaseService } from '@drmueller/ng-base-services';
 import { IParameterlessConstructor } from '@drmueller/language-extensions';
+import { HttpBaseService } from '@drmueller/ng-base-services';
 
-import { IIdentifiable } from '../data-abstractions';
+import { IIdentifiable } from '../../../public_api';
 import { IRepository } from './repository.interface';
 
 export abstract class RepositoryBaseService<TModel extends IIdentifiable> implements IRepository<TModel> {

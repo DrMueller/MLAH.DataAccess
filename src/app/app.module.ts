@@ -7,8 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgBaseServicesModule } from '@drmueller/ng-base-services';
 
 import { AppComponent } from './app.component';
-import * as dataAccess from './data-access';
-import * as http from './data-access/http';
+import { PlaceholderHttpService } from './data-access/http/placeholder-http.service';
+import { PostRepositoryService } from './data-access/post-repository.service';
 
 @NgModule({
   declarations: [
@@ -23,8 +23,8 @@ import * as http from './data-access/http';
     MatButtonModule
   ],
   providers: [
-    http.PlaceholderHttpService,
-    dataAccess.PostRepositoryService
+    PlaceholderHttpService,
+    PostRepositoryService
   ],
   bootstrap: [AppComponent]
 })

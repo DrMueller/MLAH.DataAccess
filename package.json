@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test-lib": "ng test @drmueller/ng-data-access",
-    "test-lib-headless": "ng test @drmueller/ng-data-access --browsers=ChromeHeadless --watch=false"
+    "build-lib-prod": "ng build @drmueller/ng-data-access --prod",
+    "unit-test-lib": "ng run @drmueller/ng-data-access:unit-test"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +25,7 @@
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
     "@drmueller/language-extensions": "^2.1.10",
-    "@drmueller/ng-base-services": "^2.1.13",
+    "@drmueller/ng-base-services": "^2.1.14",
     "angular-in-memory-web-api": "^0.8.0",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
