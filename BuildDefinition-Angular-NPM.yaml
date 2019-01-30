@@ -7,7 +7,7 @@ queue:
   demands: npm
 
 variables:
-  LibraryName: 'ng-base-services'
+  LibraryName: 'ng-data-access'
 steps:
 - task: Npm@1
   displayName: 'NPM Install'
