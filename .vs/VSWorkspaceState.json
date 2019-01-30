@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\data-access",
+    "\\src\\app\\data-access\\http",
+    "\\src\\app\\models"
+  ],
+  "SelectedNode": "\\src\\app\\data-access\\http\\placeholder-http.service.ts",
+  "PreviewInSolutionExplorer": false
+}

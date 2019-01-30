@@ -18,7 +18,7 @@ import * as http from './data-access/http';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    NgBaseServicesModule.forRoot(),
+    NgBaseServicesModule,
     MatCardModule,
     MatButtonModule
   ],

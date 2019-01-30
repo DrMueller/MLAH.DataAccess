@@ -2,10 +2,10 @@
   "name": "@drmueller/ng-data-access",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
-    "@drmueller/language-extensions": "^1.0.34",
-    "@drmueller/ng-base-services": "^1.0.7",
+    "@angular/common": "~7.1.0",
+    "@angular/core": "~7.1.0",
+    "@drmueller/language-extensions": "^2.1.10",
+    "@drmueller/ng-base-services": "^2.1.13",
     "reflect-metadata": "^0.1.12"
   }
 }
